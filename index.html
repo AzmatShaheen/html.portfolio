@@ -2,66 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY RESUME</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Jane">
+    <meta name="description" content="The Official Website for the Little Taco Shop">
+    <title>The Little Taco Shop</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-    <img src="./profile pic/blank picture.jpg" height="100" width="100"/>
-    <p>+91-202567</p>
-    <p>SERENE</p>
-    <p> <a href="mailto:azmatshaheen947@gmail.com">Send Email</a> </p>
-    <p> <a href="https://www.instagram.com/serene__15/" target="_blank">Instagram</a>
-    <br/>
+    <header>
+        <h1>Welcome to The Little Taco Shop</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
 
-    <h1>Summary</h1>
-    <hr/>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, in nesciunt velit perspiciatis tempore voluptatem. Itaque qui odit fugit velit.</p>
-    <br/>
-    <h1>Skills</h1>
-    <hr/>
-    <ul>
-        <li>Working Knowledge of HTML.</li>
-        <li>Good interpersonal and organisational skills, with an ability to work both independently and collaboratively.</li>
-        <li>Exceptional eye for and attention to details.</li>
-        
-    </ul>
-    <br />
-    <h1>Experience</h1>
-    <hr />
-    <b><u> <p>HTML PROJECT: PERSONAL WEBSITE </u> </b></p>
-    <i>Self-Initiated/ August 2024</i>
-    <ul>
-        <li>Developed a simple personal website using HTML to showcase basic web development skills.</li>
-        <li>Focused on creating a clean, user-friendly layout with clear navigation and content organisation.</li>
-        <li>Learned about applied fundamental HTML tags and attributes to structure the website's content.</li>
-        
-    </ul>
-    <br />
-    <b> <u> <p>Introduction to HTML and Web Design </u></b></p>
-    <i>University of ABC/September 2024</i>
-    <ul>
-        <li>Completed a project-based course where foundational HTML skills were developed.</li>
-        <li>Created basic webpages as part of assignments, focusing on structure, text and formatting, and linking.</li>
-        <li>Gained an understanding of how HTML integrates with other web technologies like CSS</li>
-        
-    </ul>
-    <br />
-    <h1>Education</h1>
-    <hr />
-    <b>ABC University,</b> XYZ Country
-    <i><p>Bachelor's Degree in PQY </i></p>
-    <br />
-    <br />
+        <figure>
+            <img src="img/tacos_and_drink_400x267.png" alt="Tacos and a Drink" title="We love Tacos!" width="400" height="267">
+            <figcaption>
+                Tacos and a Drink
+            </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="about">
+            <h2>About <abbr title="The Little Taco Shop"></abbr> LTS</h2>
+            <p>
+                <abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022.</time>Our shop was built from a <strong>love of Tacos</strong>🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town. 
+            </p>
+            <aside>
+                <h3>Taco Trivia</h3>
+                <details>
+                    <summary>
+                        When did Tacos first appear in the United States?
+                    </summary>
+                    <p>
+                        Jeffery M.Pilcher, taco historian and professor of history at the University of Minnesota, says the earliest mention of Tacos in the United States are in a newspaper from <time datetime="1905">1905</time>. (Source: <cite><a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/" target="_blank">Smithsonian Magazine</a></cite>
+                    </p>
+                </details>
+            </aside>
+        </article>
+        <hr>
+        <article id="menu">
+            <h2>Our Menu</h2>
+            <table>
+                <caption>Our Tacos</caption>
+                <thead>
+                    <tr>
+                        <th>Tacos</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">Crunchy</th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">Soft</th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>    
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Chips &amp; Salsa $2</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
     <footer>
-        <p>&copy; 2024 SERENE. All rights reserved.</p>
+        <p>Copyright &copy; The Little Taco Shop</p>
     </footer>
-
-
-
-
-
-    
-    
 </body>
 </html>
